@@ -7,11 +7,81 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gelasio|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Hello, world!</title>
+    <title>Kuma Bayne - Web Design &amp; Development</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="jumbotron-fluid">
+      <div class="container py-5">
+        <h1 class="display-4">Kuma Bayne</h1>
+        <p class="lead">Front-end Web Design &amp; Development</p>
+        <hr class="my4">
+        <p>Have an interesting idea for a project?</p>
+        <a class="btn btn-primary btn-lg jumbo-btn" href="#form" role="button">Let's talk</a>
+      </div>
+    </div>
+    <div class="container">
+      <main>
+        <section class="text-center">
+          <h2 class="pb-1 mb-5 d-inline-block">Our Process</h2>
+          <div class="row">
+            <div class="col-sm">
+              <img src="images/plan.png" alt="" class="mb-4 mx-auto d-block">
+              <h3 class="mb-4">Plan</h3>
+              <p>Planning is the most important part of any project. After figuring out the goals for your project, we come up with a start to finish plan to reach those goals.</p>
+            </div>
+            <div class="col-sm">
+              <img src="images/design.png" alt="" class="mb-4 mx-auto d-block">
+              <h3 class="mb-4">Design</h3>
+              <p>Design is not just visual, it's also how it works. We make sure your design not only looks great but is user friendly as well.</p>
+            </div>
+            <div class="col-sm">
+              <img src="images/dev.png" alt="" class="mb-4 mx-auto d-block">
+              <h3 class="mb-4">Development</h3>
+              <p>Developing lean, cross browser code allows your website to not only be fast but also work on any user's device.</p>
+            </div>
+          </div>
+        </section>
+        <section class="mb-5">
+          <div class="text-center">
+            <h2 class="pb-1 mb-5 d-inline-block">Latest Project</h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <h3 class="latest-project">The New Ivy League</h3>
+              <p>The New Ivy League is a Professional Entertainment Service located in San Diego, CA. I worked on the front-end HTML and CSS to make this design match the clients mock up.</p>
+            </div>
+            <div class="col-sm-8">
+              <img src="images/newivyleague.png" alt="The New Ivy League, a professional entertainment service located in San Diego, CA">
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div class="container">
+      <form id="form" action="https://formspree.io/xrgpwgdl" method="POST">
+        <div class="form-group">
+          <label for="nameInput">Name</label>
+          <input type="text" class="form-control" id="nameInput" name="_name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="_replyto">
+        </div>
+        <div class="form-group">
+          <label for="messages">Your message:</label>
+          <textarea class="form-control" name="message" id="messages"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <footer class="footer py-2 mt-4">
+      <div class="container text-center">
+        <span class="text-muted">Copyright Kuma Bayne &copy; 2020</span>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

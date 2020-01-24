@@ -1,0 +1,48 @@
+body {
+  font-family: 'Gelasio', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  border-bottom: 2px solid #5009FF;
+}
+
+h3 {
+  color: #5009FF;
+}
+
+img {
+  max-width: 100%;
+}
+
+.jumbo-btn {
+  background-color: #11054E;
+  border: 2px solid #11054E;
+}
+
+.jumbo-btn:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.jumbotron-fluid {
+  background-color: #5009FF;
+  color: #fff;
+}
+
+section {
+  margin-top: 100px;
+}
+
+h3.latest-project {
+  color: #555;
+  font-size: 1.4em;
+}
+
+input, textarea {
+  border: 2px solid #5009FF;
+}
